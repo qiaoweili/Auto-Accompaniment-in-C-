@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/qiaoweiiii/Desktop/music X lab/CLion/fftw_test.cpp
+complex.h
+-
+fftw3.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+
+/usr/local/include/fftw3.h
+stdio.h
+-
+stddef.h
+-
+

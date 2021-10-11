@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CLion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FFTWtest">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/FFTWtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 FFTWtest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FFTWtest/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/FFTWtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 FFTWtest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AubioTest">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/AubioTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 AubioTest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AubioTest/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/AubioTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 AubioTest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acco">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/acco" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 acco"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acco/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/acco" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 acco/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scorefollow">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/scorefollow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 scorefollow"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scorefollow/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/scorefollow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 scorefollow/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miditest">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/miditest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 miditest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miditest/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/miditest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 miditest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion_Calc">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CLion_Calc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLion_Calc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion_Calc/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CLion_Calc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLion_Calc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_files">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/all_files" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all_files"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_files/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/all_files" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all_files/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLion"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion/fast">
+				<Option output="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/PkgConfig::FFTW"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/aubio.framework"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/rtmidi"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes/NumCpp"/>
+					<Add directory="/Users/qiaoweiiii/Desktop/music X lab/CLion/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLion/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/qiaoweiiii/Desktop/music\ X\ lab/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/accompaniment.cpp">
+			<Option target="acco"/>
+			<Option target="all_files"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/accompaniment.h">
+			<Option target="acco"/>
+			<Option target="all_files"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/aubio_test.cpp">
+			<Option target="AubioTest"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/calc.cpp">
+			<Option target="CLion_Calc"/>
+			<Option target="all_files"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/fftw_test.cpp">
+			<Option target="FFTWtest"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/global_config.cpp">
+			<Option target="all_files"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/global_config.h">
+			<Option target="all_files"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/main.cpp">
+			<Option target="all_files"/>
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/miditest1.cpp">
+			<Option target="miditest"/>
+			<Option target="all_files"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/score_following.cpp">
+			<Option target="scorefollow"/>
+			<Option target="all_files"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/BoostDetectToolset-1.76.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/Boost-1.76.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_headers-1.76.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_system-1.76.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_system-1.76.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/qiaoweiiii/Desktop/music X lab/CLion/../../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

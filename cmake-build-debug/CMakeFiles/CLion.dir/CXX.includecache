@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/qiaoweiiii/Desktop/music X lab/CLion/main.cpp
+iostream
+-
+vector
+-
+iostream
+-
+boost/version.hpp
+-
+
+/usr/local/include/boost/version.hpp
+

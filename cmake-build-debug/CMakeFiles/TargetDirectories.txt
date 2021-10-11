@@ -1,0 +1,10 @@
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/FFTWtest.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/AubioTest.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/acco.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/scorefollow.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/miditest.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/CLion_Calc.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/all_files.dir
+/Users/qiaoweiiii/Desktop/music X lab/CLion/cmake-build-debug/CMakeFiles/CLion.dir
